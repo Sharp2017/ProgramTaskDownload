@@ -1,0 +1,6 @@
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\XConvert2InCsharp\bin\Release\XConvert2InCsharp.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\XConvert2InCsharp\bin\Release\XConvert2InCsharp.pdb
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\XConvert2InCsharp\obj\Release\XConvert2InCsharp.ClassXConvert2InCsharp.resources
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\XConvert2InCsharp\obj\Release\XConvert2InCsharp.csproj.GenerateResource.Cache
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\XConvert2InCsharp\obj\Release\XConvert2InCsharp.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\XConvert2InCsharp\obj\Release\XConvert2InCsharp.pdb

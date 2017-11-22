@@ -1,0 +1,7 @@
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskDBService\bin\Release\ProgramTaskDBService.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskDBService\bin\Release\ProgramTaskDBService.pdb
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskDBService\bin\Release\TaskDataInfo.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskDBService\bin\Release\TaskDataInfo.pdb
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskDBService\obj\Release\ProgramTaskDBService.csprojResolveAssemblyReference.cache
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskDBService\obj\Release\ProgramTaskDBService.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskDBService\obj\Release\ProgramTaskDBService.pdb

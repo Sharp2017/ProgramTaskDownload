@@ -1,0 +1,10 @@
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\bin\Release\ProgramTaskCommonService.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\bin\Release\ProgramTaskCommonService.pdb
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\bin\Release\AudioTechReviewDAL.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\bin\Release\Dart.PowerTCP.Ftp.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\bin\Release\XConvert2InCsharp.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\bin\Release\XstudioDataInfo.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\obj\Release\ProgramTaskCommonService.dll
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\obj\Release\ProgramTaskCommonService.pdb
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\obj\Release\ProgramTaskCommonService.csprojResolveAssemblyReference.cache
+D:\HRTemp\两网融合iTask北京台\Code\ProgramTaskDownload\ProgramTaskCommonService\bin\Release\XConvert2InCsharp.pdb

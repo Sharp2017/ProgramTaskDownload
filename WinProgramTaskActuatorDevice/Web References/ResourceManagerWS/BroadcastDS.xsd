@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/BroadcastDS.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/BroadcastDS.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/BroadcastDS.xsd" id="BroadcastDS" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="BroadcastDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Categories">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="CategoryID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="ParentID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="WorkgroupID" type="xs:string" />
+              <xs:element minOccurs="0" name="CategoryNumber" type="xs:int" />
+              <xs:element minOccurs="0" name="CategoryCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="CategoryType" type="xs:int" />
+              <xs:element minOccurs="0" name="CategoryLevel" type="xs:int" />
+              <xs:element minOccurs="0" name="CategoryName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="CountOfAudio" type="xs:int" />
+              <xs:element minOccurs="0" name="Duration" type="xs:int" />
+              <xs:element name="PassOrder" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="CategoryColor" type="xs:int" />
+              <xs:element minOccurs="0" name="Proportion" type="xs:int" />
+              <xs:element minOccurs="0" name="ProportionType" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="DigDepth" type="xs:int" />
+              <xs:element minOccurs="0" name="DigType" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="CategoryEdited" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="StackType" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="DaypartHandling" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="DaypartPercentage" type="xs:int" />
+              <xs:element minOccurs="0" name="AlternateDaypart" type="xs:int" />
+              <xs:element minOccurs="0" name="AlternateDaypartPercentage" type="xs:int" />
+              <xs:element minOccurs="0" name="Class1" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Class2" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Class3" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Class4" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Class5" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Class6" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Class7" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Class8" type="xs:boolean" />
+              <xs:element minOccurs="0" name="MinChart" type="xs:int" />
+              <xs:element minOccurs="0" name="ChartEdited" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="KickCountMon" type="xs:int" />
+              <xs:element minOccurs="0" name="KickCountTue" type="xs:int" />
+              <xs:element minOccurs="0" name="KickCountWed" type="xs:int" />
+              <xs:element minOccurs="0" name="KickCountThu" type="xs:int" />
+              <xs:element minOccurs="0" name="KickCountFri" type="xs:int" />
+              <xs:element minOccurs="0" name="KickCountSat" type="xs:int" />
+              <xs:element minOccurs="0" name="KickCountSun" type="xs:int" />
+              <xs:element minOccurs="0" name="KickTimeMon" type="xs:int" />
+              <xs:element minOccurs="0" name="KickTimeTue" type="xs:int" />
+              <xs:element minOccurs="0" name="KickTimeWed" type="xs:int" />
+              <xs:element minOccurs="0" name="KickTimeThu" type="xs:int" />
+              <xs:element minOccurs="0" name="KickTimeFri" type="xs:int" />
+              <xs:element minOccurs="0" name="KickTimeSat" type="xs:int" />
+              <xs:element minOccurs="0" name="KickTimeSun" type="xs:int" />
+              <xs:element minOccurs="0" name="ShuffleOnce" type="xs:int" />
+              <xs:element minOccurs="0" name="ShuffleMon" type="xs:int" />
+              <xs:element minOccurs="0" name="ShuffleTue" type="xs:int" />
+              <xs:element minOccurs="0" name="ShuffleWed" type="xs:int" />
+              <xs:element minOccurs="0" name="ShuffleThu" type="xs:int" />
+              <xs:element minOccurs="0" name="ShuffleFri" type="xs:int" />
+              <xs:element minOccurs="0" name="ShuffleSat" type="xs:int" />
+              <xs:element minOccurs="0" name="ShuffleSun" type="xs:int" />
+              <xs:element minOccurs="0" name="DateAdded" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CopyToMam" type="xs:int" />
+              <xs:element minOccurs="0" name="PassSuperviseLevel" type="xs:int" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="RootID" type="xs:string" />
+              <xs:element minOccurs="0" name="Priority" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Storages">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="StorageID" type="xs:string" />
+              <xs:element minOccurs="0" name="StorageName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LastEnter" type="xs:boolean" />
+              <xs:element minOccurs="0" name="CategoryType" type="xs:int" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="WorkgroupID" type="xs:string" />
+              <xs:element minOccurs="0" name="AudServer1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AudServer2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AudServer3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AudServer4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DateAdded" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="MaxSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxSpaceHour" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceHour" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StorageZone">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="StorageID" type="xs:string" />
+              <xs:element name="ZoneID" type="xs:int" />
+              <xs:element minOccurs="0" name="FtpServer1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpPort1" type="xs:int" />
+              <xs:element minOccurs="0" name="FtpDir1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpUser1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpPassword1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpServer2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpPort2" type="xs:int" />
+              <xs:element minOccurs="0" name="FtpDir2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpUser2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpPassword2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpServer3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpUser3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpPassword3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpPort3" type="xs:int" />
+              <xs:element minOccurs="0" name="FtpDir3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpServer4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpPort4" type="xs:int" />
+              <xs:element minOccurs="0" name="FtpDir4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpUser4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FtpPassword4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FileStreamServer1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FileStreamPort1" type="xs:int" />
+              <xs:element minOccurs="0" name="FileStreamServer2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FileStreamPort2" type="xs:int" />
+              <xs:element minOccurs="0" name="FileStreamServer3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FileStreamPort3" type="xs:int" />
+              <xs:element minOccurs="0" name="FileStreamServer4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FileStreamPort4" type="xs:int" />
+              <xs:element minOccurs="0" name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Stations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="StationID" type="xs:string" />
+              <xs:element minOccurs="0" name="StationName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="StationNumber" type="xs:int" />
+              <xs:element minOccurs="0" name="IsBatchBroadcast" type="xs:boolean" />
+              <xs:element minOccurs="0" name="HasCategory" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="UniqueAdCategory" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="LockedClockInTemplate" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="DatabaseNumber" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Workgroup2Stations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="WorkgroupID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="StationID" type="xs:string" />
+              <xs:element minOccurs="0" name="InStations" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TempleteBlocks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="BlockID" type="xs:string" />
+              <xs:element minOccurs="0" name="BlockNumber" type="xs:int" />
+              <xs:element minOccurs="0" name="BlockName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="BlockCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="StationID" type="xs:string" />
+              <xs:element minOccurs="0" name="PassSuperviseLevel" type="xs:int" />
+              <xs:element minOccurs="0" name="DateAdded" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="BlockType" type="xs:int" />
+              <xs:element minOccurs="0" name="ItemsCount" type="xs:int" />
+              <xs:element minOccurs="0" name="Priority" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Workgroups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="WorkgroupID" type="xs:string" />
+              <xs:element minOccurs="0" name="WorkgroupName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="WorkgroupNumber" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:Categories" />
+      <xs:field xpath="mstns:CategoryID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Storages_Constraint1">
+      <xs:selector xpath=".//mstns:Storages" />
+      <xs:field xpath="mstns:StorageID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="StorageZone_Constraint1">
+      <xs:selector xpath=".//mstns:StorageZone" />
+      <xs:field xpath="mstns:StorageID" />
+      <xs:field xpath="mstns:ZoneID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Stations_Constraint1">
+      <xs:selector xpath=".//mstns:Stations" />
+      <xs:field xpath="mstns:StationID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Workgroup2Stations_Constraint1">
+      <xs:selector xpath=".//mstns:Workgroup2Stations" />
+      <xs:field xpath="mstns:WorkgroupID" />
+      <xs:field xpath="mstns:StationID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="TempleteBlocks_Constraint1">
+      <xs:selector xpath=".//mstns:TempleteBlocks" />
+      <xs:field xpath="mstns:BlockID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Workgroups_Constraint1">
+      <xs:selector xpath=".//mstns:Workgroups" />
+      <xs:field xpath="mstns:WorkgroupID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

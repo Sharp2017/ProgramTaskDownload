@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WinProgramTaskActuatorDevice.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WinProgramTaskActuatorDevice_RightManagerWS_RightManager" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/RightManagerWebService/RightManager.asmx</Value>
+    </Setting>
+    <Setting Name="WinProgramTaskActuatorDevice_ResourceManagerWS_ResourceManager" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/ResourceManagerWebService/ResourceManager.asmx</Value>
+    </Setting>
+    <Setting Name="WinProgramTaskActuatorDevice_XStudioWebService_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/XStudioWebService/Service.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/NewsRoomDS.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/NewsRoomDS.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/NewsRoomDS.xsd" id="NewsRoomDS" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="NewsRoomDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProgramLibNR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="ProgramLibID" type="xs:string" />
+              <xs:element minOccurs="0" name="ProgramLibName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="programLibNum" type="xs:int" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="CreatorID" type="xs:string" />
+              <xs:element minOccurs="0" name="CreatorName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="CreateDateTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DBServer">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DBServer_Bak">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DBName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DBName_Bak">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ProgramLibType" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxSpaceHour" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceHour" type="xs:int" />
+              <xs:element minOccurs="0" name="ShortName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FolderNR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="FolderID" type="xs:string" />
+              <xs:element minOccurs="0" name="FolderName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="ProgramLibID" type="xs:string" />
+              <xs:element minOccurs="0" name="FolderType" type="xs:short" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="ParentID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="CreatorID" type="xs:string" />
+              <xs:element minOccurs="0" name="CreatorName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="CreateDateTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Shared" type="xs:boolean" />
+              <xs:element minOccurs="0" name="SuperviseLevel" type="xs:short" />
+              <xs:element minOccurs="0" name="MaterialAccess" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ProjectAccess" type="xs:boolean" />
+              <xs:element minOccurs="0" name="TelephoneAccess" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Access1" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Access2" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Access3" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Access4" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Access5" type="xs:boolean" />
+              <xs:element minOccurs="0" name="MaxSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxSpaceHour" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceHour" type="xs:int" />
+              <xs:element minOccurs="0" name="MaterialMB" type="xs:int" />
+              <xs:element minOccurs="0" name="MaterialHour" type="xs:int" />
+              <xs:element minOccurs="0" name="ProjectMB" type="xs:int" />
+              <xs:element minOccurs="0" name="ProjectHour" type="xs:int" />
+              <xs:element minOccurs="0" name="TelephoneMB" type="xs:int" />
+              <xs:element minOccurs="0" name="TelephoneHour" type="xs:int" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="RootID" type="xs:string" />
+              <xs:element minOccurs="0" name="ShortName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="TelephoneNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="IsNeedExport" type="xs:boolean" />
+              <xs:element minOccurs="0" name="KeepDays" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StoragesNR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="StorageID" type="xs:string" />
+              <xs:element minOccurs="0" name="StorageName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Server">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Share">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPServer">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPath">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPassword">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPort" type="xs:int" />
+              <xs:element minOccurs="0" name="PublicServer">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="PublicPort" type="xs:int" />
+              <xs:element minOccurs="0" name="PublicUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="PublicPassword">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="MaxSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxSpaceHour" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceHour" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StorageZoneInfoNR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="StorageID" type="xs:string" />
+              <xs:element name="StorageZone" type="xs:int" />
+              <xs:element minOccurs="0" name="FTPServer1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPath1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPUser1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPassword1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPort1" type="xs:int" />
+              <xs:element minOccurs="0" name="Server1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Share1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FSPath1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FSPort1" type="xs:int" />
+              <xs:element minOccurs="0" name="FTPServer2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPath2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPUser2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPassword2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPort2" type="xs:int" />
+              <xs:element minOccurs="0" name="Server2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Share2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FSPath2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FSPort2" type="xs:int" />
+              <xs:element minOccurs="0" name="FTPServer3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPath3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPUser3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPassword3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPort3" type="xs:int" />
+              <xs:element minOccurs="0" name="Server3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Share3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FSPath3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FSPort3" type="xs:int" />
+              <xs:element minOccurs="0" name="FTPServer4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPath4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPUser4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPassword4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FTPPort4" type="xs:int" />
+              <xs:element minOccurs="0" name="Server4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Share4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FSPath4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FSPort4" type="xs:int" />
+              <xs:element minOccurs="0" name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LibStoragesNR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="LibStoragesID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="ProgramLibID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="StorageID" type="xs:string" />
+              <xs:element minOccurs="0" name="StorageIndex" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxSpaceHour" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeSpaceHour" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserSpaceInObjNR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="ObjectID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="UserID" type="xs:string" />
+              <xs:element minOccurs="0" name="SpaceMB" type="xs:int" />
+              <xs:element minOccurs="0" name="SpaceHour" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:ProgramLibNR" />
+      <xs:field xpath="mstns:ProgramLibID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="FolderNR_Constraint1">
+      <xs:selector xpath=".//mstns:FolderNR" />
+      <xs:field xpath="mstns:FolderID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="StoragesNR_Constraint1">
+      <xs:selector xpath=".//mstns:StoragesNR" />
+      <xs:field xpath="mstns:StorageID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="StorageZoneInfoNR_Constraint1">
+      <xs:selector xpath=".//mstns:StorageZoneInfoNR" />
+      <xs:field xpath="mstns:StorageID" />
+      <xs:field xpath="mstns:StorageZone" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="LibStoragesNR_Constraint1">
+      <xs:selector xpath=".//mstns:LibStoragesNR" />
+      <xs:field xpath="mstns:LibStoragesID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="UserSpaceInObjNR_Constraint1">
+      <xs:selector xpath=".//mstns:UserSpaceInObjNR" />
+      <xs:field xpath="mstns:ObjectID" />
+      <xs:field xpath="mstns:UserID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Folder_ProgramLib" msdata:parent="ProgramLibNR" msdata:child="FolderNR" msdata:parentkey="ProgramLibID" msdata:childkey="ProgramLibID" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+      <msdata:Relationship name="FK_LIBSTORA_REFERENCE_PROGRAML" msdata:parent="ProgramLibNR" msdata:child="LibStoragesNR" msdata:parentkey="ProgramLibID" msdata:childkey="ProgramLibID" />
+      <msdata:Relationship name="FK_LIBSTORA_REFERENCE_STORAGES" msdata:parent="StoragesNR" msdata:child="LibStoragesNR" msdata:parentkey="StorageID" msdata:childkey="StorageID" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Folder_ProgramLib" msdata:parent="ProgramLibNR" msdata:child="FolderNR" msdata:parentkey="ProgramLibID" msdata:childkey="ProgramLibID" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+      <msdata:Relationship name="FK_LIBSTORA_REFERENCE_PROGRAML" msdata:parent="ProgramLibNR" msdata:child="LibStoragesNR" msdata:parentkey="ProgramLibID" msdata:childkey="ProgramLibID" />
+      <msdata:Relationship name="FK_LIBSTORA_REFERENCE_STORAGES" msdata:parent="StoragesNR" msdata:child="LibStoragesNR" msdata:parentkey="StorageID" msdata:childkey="StorageID" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Folder_ProgramLib" msdata:parent="ProgramLibNR" msdata:child="FolderNR" msdata:parentkey="ProgramLibID" msdata:childkey="ProgramLibID" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+      <msdata:Relationship name="FK_LIBSTORA_REFERENCE_PROGRAML" msdata:parent="ProgramLibNR" msdata:child="LibStoragesNR" msdata:parentkey="ProgramLibID" msdata:childkey="ProgramLibID" />
+      <msdata:Relationship name="FK_LIBSTORA_REFERENCE_STORAGES" msdata:parent="StoragesNR" msdata:child="LibStoragesNR" msdata:parentkey="StorageID" msdata:childkey="StorageID" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Folder_ProgramLib" msdata:parent="ProgramLibNR" msdata:child="FolderNR" msdata:parentkey="ProgramLibID" msdata:childkey="ProgramLibID" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+      <msdata:Relationship name="FK_LIBSTORA_REFERENCE_PROGRAML" msdata:parent="ProgramLibNR" msdata:child="LibStoragesNR" msdata:parentkey="ProgramLibID" msdata:childkey="ProgramLibID" />
+      <msdata:Relationship name="FK_LIBSTORA_REFERENCE_STORAGES" msdata:parent="StoragesNR" msdata:child="LibStoragesNR" msdata:parentkey="StorageID" msdata:childkey="StorageID" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
